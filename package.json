@@ -1,0 +1,26 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "user stories:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidzambo/fcc-request-header-parser.git"
+  },
+  "keywords": [
+    "FreeCodeCamp",
+    "backend"
+  ],
+  "author": "David Zambo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidzambo/fcc-request-header-parser/issues"
+  },
+  "homepage": "https://github.com/davidzambo/fcc-request-header-parser#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
