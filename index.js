@@ -11,7 +11,7 @@ app.get('/', (req, res) =>{
   res.json({
     yourIP: ip,
     yourLanguage: req.headers['accept-language'].split(',')[0],
-    yourSystem: regex.exec(userAgent)[1],
+    yourSystem: userAgent.match(regex)[0].slice(1,-1),
     codedBy: 'https://www.dcmf.hu'
   });
 }).listen(port, () =>{
