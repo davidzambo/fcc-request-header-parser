@@ -5,7 +5,7 @@ const port = process.env.PORT || 8000;
 app.get('/', (req, res) =>{
   const userAgent = req.headers['user-agent'];
   const regex = /\((.+)\)/g;
-  const ip = req.ip;
+  let ip = req.ip;
  if (ip.substr(0,7) == "::ffff:")
 	ip = ip.substr(7);
   res.json({
